@@ -1,16 +1,16 @@
 import java.util.HashMap;
 
-public class t05 {
+public class t07 {
 }
 
 
-class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-  }
-
+//class TreeNode {
+//      int val;
+//      TreeNode left;
+//      TreeNode right;
+//      TreeNode(int x) { val = x; }
+//  }
+//
 
 //class Solution {
 //    HashMap<Integer, Integer> dic = new HashMap<>();
