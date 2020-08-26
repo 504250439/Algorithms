@@ -92,7 +92,9 @@ F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
 
 
 
+### 栈
 
+针对栈的问题,全部都需要画图,才能理清他们的关系
 
 
 
@@ -114,3 +116,4 @@ Integer.MIN_VALUE -2147483648
 对MAX_VALUE加1,会越界,变成**MIN_VALUE** !!
 
  Integer.MAX_VALUE + 1 = Integer.MIN_VALUE 
+
