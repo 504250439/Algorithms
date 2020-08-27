@@ -5,11 +5,11 @@ public class t24 {
 }
 
 
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-  }
+//class ListNode {
+//      int val;
+//      ListNode next;
+//      ListNode(int x) { val = x; }
+//  }
 
 //利用双指针来求解
 //class Solution {
@@ -34,27 +34,17 @@ class ListNode {
 
 
 //递归求解
+//需要画图去理解
 //class Solution {
 //    public ListNode reverseList(ListNode head) {
-//
-//        if (head.next!=null){
-//            head=getback(head);
+//        if(head.next==null){
+//            return head;
 //        }
-//
-//
+//        ListNode r=reverseList(head.next);
+////        翻转指向
+//        head.next.next=head;
+//        head.next=null;
+//        return r;
 //    }
-//
-//
-//    public ListNode getback(ListNode a){
-//        if (a.next!=null){
-//            getback(a.next);
-//        }
-//
-//
-//
-//
-//    }
-//
-//
 //}
-
+//
