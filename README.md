@@ -117,3 +117,7 @@ Integer.MIN_VALUE -2147483648
 
  Integer.MAX_VALUE + 1 = Integer.MIN_VALUE 
 
+#### 逻辑或
+
+​	逻辑或有阻断的作用,可以用在return的时候减少遍历的次数
+
