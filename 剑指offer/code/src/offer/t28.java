@@ -1,3 +1,5 @@
+package offer;
+
 import javax.swing.*;
 
 public class t28 {

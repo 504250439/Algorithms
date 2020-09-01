@@ -1,7 +1,9 @@
+package offer;
+
 import java.util.*;
 
 
-public class t34 {
+public class t323 {
 }
 
 //前面3道题都是关于树的遍历的,注意他们的变化即可

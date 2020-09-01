@@ -1,3 +1,5 @@
+package offer;
+
 public class t16 {
     public static void main(String[] a){
 //        double x=2;

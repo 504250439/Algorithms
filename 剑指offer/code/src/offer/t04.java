@@ -1,3 +1,5 @@
+package offer;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,14 +9,6 @@ public class t04 {
 //可以使用 递归 或者是 使用辅助栈
 
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
 //
 //class ListNode {
 //    int val;

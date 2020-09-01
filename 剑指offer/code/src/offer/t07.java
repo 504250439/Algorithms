@@ -1,3 +1,5 @@
+package offer;
+
 import java.util.HashMap;
 
 public class t07 {
