@@ -12,22 +12,27 @@ public class test {
 //        while (!pq.isEmpty()){
 //            System.out.println(pq.poll());
 //        }
-
-        Integer i1 = 100;
-        Integer i2 = 100;
-        Integer i3 = new Integer(100);
-        Integer i4 = new Integer(100);
-        Integer i5 = 128;
-        Integer i6 = 128;
-
-
-        System.out.println(i1==i2);
-        System.out.println(i3==i4);
-        System.out.println(i5==i6);
-
-
-
+        A classA = new B();
+        System.out.println(classA.a);
+        classA.fun();
     }
+
+
 
 }
 //teste
+class A {
+    public int a = 0;
+    public void fun(){
+        System.out.println("A");
+    }
+}
+
+class B extends A {
+    public int a = 1;
+
+    public void fun() {
+        System.out.println("B");
+    }
+
+}
