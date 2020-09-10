@@ -1,38 +1,33 @@
 import java.util.*;
+//
+//class ListNode {
+//      int val;
+//      ListNode next;
+//      ListNode(int x) {
+//          val = x;
+//          next = null;
+//      }
+//  }
+
 
 public class test {
-    public static void main(String[] args) {
-//        Integer[] intArr = {new Integer(2), new Integer(1), new Integer(9), new Integer(5)};
-//        Queue<Integer> pq = new PriorityQueue<>();
+//    public static void main(String[] args) {
+//        ListNode listNode=new ListNode(1);
+//        listNode.next=(new ListNode(2));
+//        listNode.next.next=(new ListNode(3));
+//        listNode.next.next=(new ListNode(5));
 //
-//        for (int i = 0; i <intArr.length ; i++) {
-//            pq.add(intArr[i]);
-//        }
 //
-//        while (!pq.isEmpty()){
-//            System.out.println(pq.poll());
-//        }
-        A classA = new B();
-        System.out.println(classA.a);
-        classA.fun();
-    }
-
-
-
-}
-//teste
-class A {
-    public int a = 0;
-    public void fun(){
-        System.out.println("A");
-    }
+//        ListNode head=listNode;
+//        ListNode cur=head;
+//        head=head.next;
+//        System.out.println(head.val);
+//        System.out.println(cur.val);
+//
+//
+//    }
+//
+//
+//
 }
 
-class B extends A {
-    public int a = 1;
-
-    public void fun() {
-        System.out.println("B");
-    }
-
-}
