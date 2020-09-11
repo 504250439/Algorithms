@@ -16,11 +16,12 @@ public class test {
         int target=2;
         System.out.println(target-=i++);
         System.out.println(i);
-
-
     }
 
 
 
 }
+
+
+
 
