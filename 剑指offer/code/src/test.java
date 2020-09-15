@@ -15,8 +15,8 @@ public class test {
         int i=1;
         int target=2;
         System.out.println(4&5);
-
-        System.out.println(4<<1);
+        String test="abcd";
+        System.out.println(test.substring(0,2));
 
     }
 
