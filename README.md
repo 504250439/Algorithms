@@ -143,6 +143,32 @@ F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
 
 
 
+### 并查集
+
+ 解决图论中「动态连通性」问题 
+
+三个核心函数
+
+```java
+    /* 将 p 和 q 连接 */
+    public void union(int p, int q);
+    /* 判断 p 和 q 是否连通 */
+    public boolean connected(int p, int q);
+    /* 返回图中有多少个连通分量 */
+    public int count();
+```
+
+用一个一维数组去模拟森林
+
+如果某两个节点被连通，则让其中的（任意）一个节点的根节点接到另一个节点的根节点上(修改parent)对应的坐标
+
+优化
+
+1. 平衡性优化:小树接到大树上,添加一个size[] 记录自己的节点数
+2. 路径压缩:parent[x]=parent[parent[x]],向上更新父节点,是find函数时间复杂度下降到O(1)
+
+
+
 ### Java注意事项
 
 
