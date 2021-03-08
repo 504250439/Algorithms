@@ -1,22 +1,35 @@
 package 算法模板.排序;
 
 public class QuickSort {
-    public static void quickSort(int[] q, int l, int r) {
-        if (l >= r) return;
-        int x = q[(l + r) >> 1];
-        int i = l - 1;
-        int j = r + 1;
-        while (i < j) {
-            do ++i; while (q[i] < x);
-            do --j; while (q[j] > x);
-            if (i < j) {
-                int temp = q[i];
-                q[i] = q[j];
-                q[j] = temp;
+
+    public static void quickSort(int[] nums,int left,int right){
+        if(left>right){
+            return;
+        }
+
+        int key=nums[left];
+        int i=left;
+        int j=right;
+
+        while (i<j){
+            while (nums[j]>=key && i<j){
+                j--;
+            }
+            while (nums[i]<=key && i<j){
+                i++;
+            }
+            if (i<j){
+                int temp=nums[i];
+                nums[i]=nums[j];
+                nums[j]=temp;
             }
         }
-        quickSort(q, l, j);
-        quickSort(q, j + 1, r);
+
+        nums[left]=nums[i];
+        nums[i]=key;
+
+        quickSort(nums,left,i-1);
+        quickSort(nums,i+1,right);
     }
 
     public static void main(String[] args) {
