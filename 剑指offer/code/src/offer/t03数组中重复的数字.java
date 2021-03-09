@@ -1,6 +1,8 @@
 package offer;
 
-public class t01 {
+import java.util.HashSet;
+
+public class t03数组中重复的数字 {
 }
 
 //class Solution {
@@ -24,3 +26,18 @@ public class t01 {
 //        return -1;
 //    }
 //}
+
+
+class Solution {
+    public int findRepeatNumber(int[] nums) {
+        HashSet<Integer> set=new HashSet<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (set.contains(nums[i])){
+                return nums[i];
+            }else{
+                set.add(nums[i]);
+            }
+        }
+        return 0;
+    }
+}

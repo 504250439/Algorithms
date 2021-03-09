@@ -1,6 +1,6 @@
 package offer;
 
-public class t02 {
+public class t04二维数组中的查找 {
 }
 
 //
