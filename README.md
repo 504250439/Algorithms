@@ -6,6 +6,23 @@
 
  StringBuffer 为线程安全,
 
+遍历字符串,如果担心第一个为空时,可以使用一个标志符号 top=-1;
+
+```java
+int top = -1;
+for (int i = 0; i < S.length(); ++i) {
+    char ch = S.charAt(i);
+    if (top >= 0 && ) {			//不用针对第一个char进行另外的判断啦
+        --top;
+    } else {
+        ++top;
+    }
+}
+```
+
+
+
+
 #### 字符串匹配
 
 可以利用sunday算法去做
