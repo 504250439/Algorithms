@@ -3,7 +3,7 @@ package offer;
 import java.util.HashMap;
 import java.util.Map;
 
-public class t10 {
+public class t10斐波那契数列 {
 }
 
 //递归的方法

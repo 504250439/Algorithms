@@ -1,6 +1,6 @@
 package offer;
 
-public class t11 {
+public class t11旋转数组的最小数字 {
 
 
 }

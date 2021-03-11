@@ -2,7 +2,7 @@ package offer;
 
 import java.util.HashMap;
 
-public class t07重建二叉树 {
+public class    t07重建二叉树 {
 }
 
 

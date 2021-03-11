@@ -2,7 +2,7 @@ package offer;
 
 import java.util.Stack;
 
-public class t09 {
+public class t09用两个栈实现队列 {
 }
 
 
