@@ -1,6 +1,6 @@
 package offer;
 
-public class t16 {
+public class t16数值的整数次方 {
     public static void main(String[] a){
 //        double x=2;
 //        int n=-2;

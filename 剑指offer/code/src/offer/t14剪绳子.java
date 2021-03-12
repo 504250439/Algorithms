@@ -1,6 +1,6 @@
 package offer;
 
-public class t14 {
+public class t14剪绳子 {
 }
 
 
