@@ -2,7 +2,7 @@ package offer;
 
 import java.util.HashMap;
 
-public class t35 {
+public class t35复杂链表的复制 {
 }
 
 

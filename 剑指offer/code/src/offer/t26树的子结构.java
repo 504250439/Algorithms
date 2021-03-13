@@ -1,6 +1,6 @@
 package offer;
 
-public class t26 {
+public class t26树的子结构 {
 }
 
 //针对树的遍历问题,先序遍历

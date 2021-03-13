@@ -1,6 +1,6 @@
 package offer;
 
-public class t21 {
+public class t21调整数组顺序使奇数位于偶数前面 {
 }
 
 

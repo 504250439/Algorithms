@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingDeque;
 
-public class t37 {
+public class t37序列化二叉树 {
 }
 
 

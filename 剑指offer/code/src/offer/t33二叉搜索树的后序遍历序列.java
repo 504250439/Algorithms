@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Stack;
 
-public class t33 {
+public class t33二叉搜索树的后序遍历序列 {
 //    public static void main(String[] args){
 //        int[] p={4, 8, 6, 12, 16, 14, 10};
 //        System.out.println(p[p.length-1]);

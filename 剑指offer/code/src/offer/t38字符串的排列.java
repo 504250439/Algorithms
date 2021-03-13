@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-public class t38 {
+public class t38字符串的排列 {
 }
 
 

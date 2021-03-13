@@ -2,7 +2,7 @@ package offer;
 
 import java.util.Stack;
 
-public class t31 {
+public class t31栈的压入弹出序列 {
 }
 
 

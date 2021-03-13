@@ -2,7 +2,7 @@ package offer;
 
 import javax.swing.*;
 
-public class t28 {
+public class t28对称的二叉树 {
 }
 
 

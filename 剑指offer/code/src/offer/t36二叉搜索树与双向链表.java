@@ -3,27 +3,27 @@ package offer;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingDeque;
 
-public class t36 {
+public class t36二叉搜索树与双向链表 {
 }
 
 
-class Node {
-    public int val;
-    public Node left;
-    public Node right;
-
-    public Node() {}
-
-    public Node(int _val) {
-        val = _val;
-    }
-
-    public Node(int _val,Node _left,Node _right) {
-        val = _val;
-        left = _left;
-        right = _right;
-    }
-};
+//class Node {
+//    public int val;
+//    public Node left;
+//    public Node right;
+//
+//    public Node() {}
+//
+//    public Node(int _val) {
+//        val = _val;
+//    }
+//
+//    public Node(int _val,Node _left,Node _right) {
+//        val = _val;
+//        left = _left;
+//        right = _right;
+//    }
+//};
 
 //直接思路,先用中序遍历数组,将结点放到队列当中
 //再遍历队列来构建循环列表

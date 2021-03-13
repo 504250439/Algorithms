@@ -3,7 +3,7 @@ package offer;
 import java.util.List;
 import java.util.Stack;
 
-public class t24 {
+public class t24链表中倒数第k个节点 {
 }
 
 

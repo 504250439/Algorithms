@@ -7,10 +7,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class t27 {
+public class t27二叉树的镜像 {
 }
 
-
+/*可以使用递归和辅助栈*/
 
 //class TreeNode {
 //      int val;
